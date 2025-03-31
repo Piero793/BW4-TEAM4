@@ -9,7 +9,7 @@ import java.time.LocalDate;
 
 @Data
 @NoArgsConstructor
-public class Tessera  {
+public class Tessera  { // tessera
 
     @Id
     private String numeroTessera;
