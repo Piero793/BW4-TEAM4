@@ -25,6 +25,4 @@ public class Tessera  { // tessera
     public boolean isValid() {
         return LocalDate.now().isBefore(dataDiScadenza);  //metodo per vedere se la tessera è valida
     }
-
-
 }
