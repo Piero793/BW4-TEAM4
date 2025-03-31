@@ -22,7 +22,7 @@ import lombok.NoArgsConstructor;
 
         // Metodo per verificare la validità della tessera associata
         public boolean isTesseraValida() {
-            return tessera.isValid(); // Utilizza il metodo isValid() della classe Tessera
+            return tessera.isValid();
         }
     }
 
