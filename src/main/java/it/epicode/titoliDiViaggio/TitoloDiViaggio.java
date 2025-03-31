@@ -6,4 +6,8 @@ public abstract class TitoloDiViaggio {
 
     @Id
     private Long codiceUnivoco;
+
+    public TitoloDiViaggio(Long codiceUnivoco) {
+        this.codiceUnivoco = codiceUnivoco;
+    }
 }
